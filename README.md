@@ -40,4 +40,8 @@ npm run dev
 
 ## Versionamento
 
+## Deploy
+
+A aplicação foi publicada utilizando a Vercel, integrada ao repositório do GitHub.
+
 O projeto utiliza Git e GitHub para controle de versão. As branches `main`, `develop` e `feature/` são utilizadas para organizar o desenvolvimento.
