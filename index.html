@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>ONG Solidariedade</title>
+</head>
+
+<body>
+    <header>
+        <h1>ONG Solidariedade</h1>
+
+        <button type="button" id="botaoContraste">
+                Alto contraste
+            </button>
+
+    </header>
+
+    <nav>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-hamburguer" aria-label="Abrir menu">☰</label>
+
+        <div class="menu-links">
+            <a href="#inicio">Início</a>
+
+            <div class="dropdown">
+                <a href="#projetos">Projetos</a>
+
+                <div class="submenu">
+                    <a href="#projetos">Projetos Sociais</a>
+                    <a href="#cadastro">Seja um Voluntário</a>
+                </div>
+            </div>
+
+            <a href="#cadastro">Cadastro</a>
+
+        
+        </div>
+    </nav>
+
+    <main id="conteudo" class="container">
+        <section>
+            <h2>Sobre a ONG</h2>
+            <p>A ONG Solidariedade desenvolve ações sociais para ajudar pessoas da comunidade.</p>
+            <img src="./imagens/voluntarios.webp" alt="Voluntários participando de uma ação social" width="500">
+        </section>
+        <section>
+            <h2>Contato</h2>
+            <p>E-mail: contato@ongsolidariedade.org</p>
+            <p>Telefone: (41) 99999-9999</p>
+        </section>
+    </main>
+    <footer>
+        <p>ONG Solidariedade</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js"></script>
+    <script type="module" src="./js/main.js"></script>
+</body>
+
+</html>
